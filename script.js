@@ -151,13 +151,13 @@ function initThreeJS() {
 // ========== PROJETS DATA ==========
 const projects = [
     {
-        title: "Dashboard Assurances",
-        description: "Dashboard interactif pour assurances auto avec statistiques temps réel",
+        title: "Memory Game",
+        description: "Jeu de mémoire interactif développé avec HTML, CSS et JavaScript.",
         technologies: ["HTML5", "CSS3", "JavaScript"],
         icon: "fa-solid fa-chart-line",
-        github: "https://github.com/nacerimohamed/efm-naceri",
-        live: "https://nacerimohamed.github.io/efm-naceri/",
-        category: ["html"]
+        github: "https://github.com/nacerimohamed/Memory-Game",
+        live: "https://memory-game-drab-gamma.vercel.app",
+        category: ["html", "js"]
     },
     {
         title: "Gestion des Vols",
@@ -173,7 +173,7 @@ const projects = [
         description: "Application full stack pour la gestion d'une coopérative",
         technologies: ["Laravel", "React", "MySQL"],
         icon: "fa-solid fa-store",
-        github: "https://github.com/nacerimohamed/project",
+        github: "https://github.com/nacerimohamed/FINAL-PROJET",
         live: null,
         category: ["laravel", "react"]
     }
