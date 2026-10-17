@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Naceri | Full Stack Developer</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="loader-wrapper" id="loader">
+    <div class="loader-content">
+        <div class="loader-logo">M<span>N</span>.</div>
+        <div class="loader-bar">
+            <div class="loader-bar-fill"></div>
+        </div>
+        <div class="loader-text">Chargement...</div>
+    </div>
+</div>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <div class="main-content" id="main-content">
+        
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="container nav-container">
+                <a href="#" class="logo">MOHAMED<span>.</span></a>
+                <ul class="nav-links">
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn-nav">Me Contacter</a>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <div class="badge">👋 Bonjour, je suis</div>
+                    <h1 class="hero-title">
+                        Mohamed Naceri <br>
+                        <span class="highlight">Développeur Full Stack</span>
+                    </h1>
+                    <p class="hero-desc">
+                        Passionné par la création d'applications web modernes, performantes et intuitives. Spécialisé en React, Laravel et Node.js.
+                    </p>
+                    
+                    <div class="hero-actions">
+                        <a href="#projets" class="btn btn-primary">Voir mes projets <i class="fas fa-arrow-right"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <!-- Tswira dyalek (Khassek tkon smitha img.jpeg) -->
+                        <img src="img.jpeg" alt="Mohamed Naceri">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projets" class="projects section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Projets Récents</h2>
+                    <p class="section-subtitle">Une sélection de mes travaux les plus récents.</p>
+                </div>
+                <div class="projects-grid" id="projects-container"></div>
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section id="competences" class="skills section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Mes Compétences</h2>
+                    <p class="section-subtitle">Les technologies avec lesquelles je travaille au quotidien.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                        <h3>Frontend</h3>
+                        <p>React, JavaScript, HTML5, CSS3, Tailwind</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-laravel"></i></div>
+                        <h3>Backend</h3>
+                        <p>Laravel, PHP, Node.js, Express</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h3>Base de données</h3>
+                        <p>MySQL, MongoDB, PostgreSQL</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                        <h3>Outils</h3>
+                        <p>Git, GitHub, VS Code, Docker</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact section bg-light">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Travaillons ensemble.</h2>
+                    <p>Vous avez un projet en tête ou vous souhaitez simplement discuter ? N'hésitez pas à me contacter.</p>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>mohamed.naceri12@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>0629065518</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Tinghir, Maroc</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/nacerimohamed" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mohamed-naceri-600593394/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <!-- 🚨 HNA FIN KAYN L'FORMSPREE 🚨 -->
+                <!-- Beddel 'VOTRE_ID_ICI' b l'ID li 3tak Formspree (bhal: mqkogvln) -->
+                <form class="contact-form" id="contact-form" action="https://formspree.io/f/xbgdwbqw" method="POST">
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Nom</label>
+                            <input type="text" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="votre@email.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Sujet</label>
+                        <input type="text" name="subject" placeholder="Sujet du message" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+                    </div>
+                    
+                    <!-- Honeypot bach n7miw mn l'Spam (ma tbeddelch fiha walo) -->
+                    <input type="text" name="_gotcha" style="display:none" />
+
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-paper-plane"></i> Envoyer le message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2026 Mohamed Naceri. Tous droits réservés.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- ========== SCRIPTS ========== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
