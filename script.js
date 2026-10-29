@@ -12,25 +12,25 @@ setTimeout(() => {
 // ========== PROJECTS DATA ==========
 const projects = [
     {
-        title: "Memory Game",
-        description: "Jeu de mémoire interactif développé avec HTML, CSS et JavaScript.",
-        technologies: ["HTML5", "CSS3", "JavaScript"],
+        title: "Rabbit_MQ",
+        description: "Système de gestion de cinéma en microservices orchestré avec Docker et communiquant de manière asynchrone via RabbitMQ.",
+        technologies: ["RabbitMQ","Docker","PHP","JavaScript"],
         icon: "fa-solid fa-chart-line",
-        github: "https://github.com/nacerimohamed/Memory-Game",
+        github: "https://github.com/nacerimohamed/Rabbit_MQ",
         live: "https://memory-game-drab-gamma.vercel.app"
     },
     {
         title: "Gestion des Vols",
         description: "Application complète de gestion de vols et réservations",
-        technologies: ["React", "Node.js", "MongoDB"],
+        technologies: ["React Redux","CSS3"],
         icon: "fa-solid fa-plane",
-        github: "https://github.com/nacerimohamed/project",
+        github: "https://github.com/nacerimohamed/Gestion-des-Vols",
         live: "https://gestion-des-vols.vercel.app/"
     },
     {
         title: "Cooperative Market",
         description: "Application full stack pour la gestion d'une coopérative",
-        technologies: ["Laravel", "React", "MySQL"],
+        technologies: ["Laravel", "React Vite", "MySQL"],
         icon: "fa-solid fa-store",
         github: "https://github.com/nacerimohamed/FINAL-PROJET",
         live: null
