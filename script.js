@@ -17,7 +17,7 @@ const projects = [
         technologies: ["RabbitMQ","Docker","PHP","JavaScript"],
         icon: "fa-solid fa-chart-line",
         github: "https://github.com/nacerimohamed/Rabbit_MQ",
-        live: "https://memory-game-drab-gamma.vercel.app"
+        live: null
     },
     {
         title: "Gestion des Vols",
