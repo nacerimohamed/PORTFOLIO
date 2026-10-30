@@ -17,16 +17,16 @@ const projects = [
         technologies: ["RabbitMQ","Docker","PHP","JavaScript"],
         icon: "fa-solid fa-chart-line",
         github: "https://github.com/nacerimohamed/Rabbit_MQ",
-        live: "https://memory-game-drab-gamma.vercel.app"
+        live: null
     },
-    {
-        title: "Gestion des Vols",
-        description: "Application complète de gestion de vols et réservations",
-        technologies: ["React Redux","CSS3"],
-        icon: "fa-solid fa-plane",
-        github: "https://github.com/nacerimohamed/Gestion-des-Vols",
-        live: "https://gestion-des-vols.vercel.app/"
-    },
+   {
+    title: "Sales Data Analysis",
+    description: "An interactive sales analysis dashboard built with Python and Flask. This project explores the Superstore dataset to analyze sales performance, profitability, customer behavior, and regional trends through interactive charts and filters.",
+    technologies: ["Python", "Flask", "Pandas", "NumPy", "HTML5", "CSS3", "JavaScript", "Chart.js"],
+    icon: "fa-solid fa-chart-line",
+    github: "https://github.com/nacerimohamed/Sales-Data-Analysis",
+    live: "https://sales-data-analysis-beta.vercel.app/"
+},
     {
         title: "Cooperative Market",
         description: "Application full stack pour la gestion d'une coopérative",
